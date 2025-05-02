@@ -1,0 +1,1001 @@
+EmployeeID,Department,Position,Age,Gender,Salary,HireDate
+1001,Finance,Specialist,56,F," R$ 8,807.80 ",2012-07-01
+1002,Logistics,Manager,46,F," R$ 4,379.84 ",2016-03-03
+1003,Legal,Analyst,32,F," R$ 2,298.13 ",2013-02-17
+1004,Logistics,Director,60,M," R$ 11,408.80 ",2022-03-26
+1005,Logistics,Manager,25,F," R$ 18,368.11 ",2019-06-19
+1006,,Assistant,38,M," R$ 14,318.62 ",2012-02-07
+1007,Operations,Technician,56,M," R$ 16,877.26 ",2021-05-02
+1008,HR,Assistant,36,F," R$ 12,899.20 ",2022-08-03
+1009,,Assistant,40,F," R$ 5,193.60 ",2022-03-23
+1010,Logistics,Technician,28,F," R$ 18,228.95 ",2020-01-28
+1011,Operations,Manager,28,M," R$ 12,796.65 ",2010-02-23
+1012,IT,Specialist,41,M," R$ 17,799.55 ",2013-07-31
+1013,Finance,Coordinator,53,M," R$ 11,565.74 ",2017-08-19
+1014,Finance,Coordinator,57,F, ,30/10/2014
+1015,IT,Coordinator,41,M," R$ 3,677.42 ",2017-07-20
+1016,Marketing,Technician,20,M," R$ 13,869.07 ",2018-07-10
+1017,HR,Analyst,39,F," R$ 18,235.73 ",2017-09-18
+1018,Finance,Specialist,19,M," R$ 11,707.15 ",2010-12-22
+1019,Legal,Analyst,41,M," R$ 2,021.60 ",2022-01-10
+1020,Logistics,Technician,61,F," R$ 18,879.23 ",2018-06-28
+1021,Marketing,Director,47,M," R$ 14,214.07 ",29/07/2016
+1022,Operations,Manager,55,F," R$ 9,766.94 ",15/11/2023
+1023,Legal,Director,19,M," R$ 9,572.31 ",2018-02-10
+1024,Finance,Technician,38,M,,2011-07-24
+1025,Operations,Technician,50,F," R$ 14,557.57 ",2015-02-10
+1026,Marketing,Specialist,29,F, ,16/10/2011
+1027, ,Analyst,39,M," R$ 18,891.59 ",2012-04-07
+1028,Marketing,Manager,61,M," R$ 10,678.22 ",2020-03-03
+1029,Operations,Assistant,42,F," R$ 15,836.09 ",2018-03-08
+1030,HR, ,44,F," R$ 8,309.32 ",2017-12-20
+1031,Finance,Manager,59,M," R$ 16,483.18 ",2015-12-28
+1032,Finance,Analyst,45,F," R$ 18,341.46 ",2011-08-08
+1033,Logistics,Specialist,33,M," R$ 17,069.43 ",2013-11-02
+1034,Marketing,Assistant,32,M,,2015-06-29
+1035,Operations,Specialist,64,M," R$ 9,658.81 ",2018-07-06
+1036,IT,Assistant,61,F," R$ 6,581.32 ",2022-06-29
+1037,Logistics,Manager,20,F," R$ 15,785.46 ",10/04/2017
+1038,Legal,Technician,54,M," R$ 18,381.54 ",2011-04-04
+1039,Legal,Specialist,24,," R$ 3,508.72 ",20/09/2010
+1040,,Coordinator,38,M," R$ 12,769.26 ",2018-12-31
+1041,Finance,Analyst,26,F," R$ 11,787.16 ",25/09/2014
+1042,Operations,Analyst,56,F, ,21/09/2022
+1043,Operations,,35,F," R$ 2,098.45 ",2017-01-21
+1044,HR,Director,21,M," R$ 15,385.62 ",2021-03-13
+1045,Legal,Director,42,F," R$ 2,128.05 ",2020-04-16
+1046,IT,Analyst,31,F," R$ 11,405.73 ",2013-02-17
+1047,Finance,Coordinator,26,F," R$ 11,355.71 ",2022-08-04
+1048,HR,,43,F," R$ 8,750.54 ",2023-02-10
+1049,IT,Assistant,19,F," R$ 5,697.54 ",2023-02-02
+1050,Finance,Technician,37,M," R$ 16,477.17 ",02/12/2014
+1051,HR,Director,45,F," R$ 9,359.21 ",2013-02-07
+1052,IT,Director,64,M," R$ 3,918.50 ",2012-01-15
+1053,Finance,Assistant,24,M," R$ 9,669.29 ",2012-06-17
+1054,Legal,Manager,61,F," R$ 12,536.66 ",2013-08-03
+1055,IT,Specialist,25,M," R$ 6,703.45 ",2019-06-21
+1056,Operations,Director,64,M," R$ 11,649.89 ",2018-08-19
+1057,Marketing, ,52,F," R$ 12,164.06 ",2020-07-01
+1058,Marketing,Coordinator,31,M," R$ 13,013.85 ",30/05/2022
+1059,Operations,Manager,34,F," R$ 19,852.38 ",2010-04-05
+1060,IT,Specialist,53,F," R$ 9,154.17 ",2012-07-27
+1061,Operations,Analyst,57,M," R$ 5,666.49 ",2022-01-16
+1062,Marketing,Coordinator,21,M," R$ 11,937.89 ",2017-08-18
+1063,Marketing,Manager,19,F," R$ 12,036.13 ",2019-10-02
+1064,IT,Technician,23,M," R$ 5,216.95 ",27/01/2010
+1065,Marketing,Assistant,59,F," R$ 12,063.69 ",28/11/2015
+1066,Legal,,21,M," R$ 10,707.68 ",2014-01-03
+1067,Operations, ,46,M," R$ 19,793.15 ",21/05/2012
+1068,Legal,Technician,35,M," R$ 12,397.72 ",10/09/2016
+1069,Legal,Manager,43,F," R$ 15,935.50 ",2021-05-21
+1070,IT,Analyst,61,F," R$ 9,166.34 ",2013-06-06
+1071,Operations,Technician,51, ," R$ 4,485.23 ",2013-08-16
+1072,IT,Coordinator,27,F," R$ 17,548.95 ",23/11/2021
+1073,Marketing,Specialist,53,M," R$ 4,143.54 ",2023-06-08
+1074,Finance,Coordinator,31,F," R$ 6,135.88 ",2010-06-09
+1075,IT,Director,48,M," R$ 16,095.97 ",21/02/2018
+1076,IT,Technician,65,M," R$ 19,086.41 ",2016-11-24
+1077,Finance,Specialist,32,M," R$ 3,805.02 ",28/05/2015
+1078,Logistics,Manager,25,F," R$ 11,150.18 ",2011-10-08
+1079,Marketing,Manager,31,M," R$ 16,149.46 ",25/11/2020
+1080,Operations,Director,40, ," R$ 16,415.37 ",2021-12-12
+1081,HR,Specialist,57,F," R$ 13,052.46 ",2012-11-17
+1082,Logistics,Technician,38,F," R$ 14,322.16 ",2022-05-01
+1083,Finance,Assistant,33,F," R$ 2,936.95 ",01/11/2021
+1084,HR,Specialist,62,F," R$ 9,003.87 ",29/06/2019
+1085,Marketing,Assistant,35,," R$ 13,445.78 ",2022-02-04
+1086,IT,Director,64,M," R$ 16,478.65 ",2014-07-06
+1087,IT,Coordinator,41,M," R$ 16,818.60 ",13/12/2018
+1088,Logistics,Analyst,43,F," R$ 10,490.04 ",2018-05-18
+1089,Marketing,Assistant,42,F," R$ 12,804.42 ",2021-08-10
+1090,Operations,Technician,62,M," R$ 3,586.53 ",2015-07-24
+1091, ,,58,M," R$ 6,735.66 ",2017-08-01
+1092,Legal,Manager,46,F," R$ 8,675.03 ",2022-06-04
+1093,Marketing,Manager,32,M," R$ 12,962.52 ",2014-12-10
+1094,Marketing,Assistant,62,F," R$ 15,040.90 ",2011-04-28
+1095,Legal,Coordinator,18,," R$ 18,752.33 ",15/09/2010
+1096,,Manager,42,F," R$ 9,211.61 ",2011-08-04
+1097,Marketing,Analyst,24,F," R$ 13,811.15 ",2016-03-31
+1098,Legal,Coordinator,26,M," R$ 7,156.45 ",2014-10-22
+1099,Logistics,Assistant,41,M," R$ 19,343.54 ",2022-10-22
+1100,Marketing,Manager,18,M," R$ 3,034.33 ",2015-06-14
+1101,Marketing,Assistant,61,M," R$ 15,924.95 ",2019-02-17
+1102,IT,Specialist,25,M," R$ 5,154.88 ",2012-03-05
+1103,HR,Coordinator,41,F," R$ 10,898.63 ",2017-12-12
+1104,Operations,Coordinator,28,M," R$ 2,192.79 ",22/06/2020
+1105,HR,Coordinator,34,F," R$ 17,310.22 ",2011-03-20
+1106,Logistics,Director,25,M," R$ 18,753.65 ",2012-03-17
+1107,Logistics,Technician,52,F," R$ 11,326.76 ",11/08/2017
+1108,IT,Director,52,F," R$ 5,505.44 ",2012-06-14
+1109,Finance,Analyst,50,F," R$ 16,111.27 ",2014-04-08
+1110,HR,Coordinator,22,," R$ 11,189.86 ",2013-02-22
+1111,Finance,Technician,59,F," R$ 14,572.10 ",2016-03-31
+1112,IT,Coordinator,56,M," R$ 13,073.42 ",2011-09-10
+1113,Operations,Technician,58,F," R$ 14,132.44 ",2022-05-06
+1114,Finance,Manager,45,M," R$ 8,475.32 ",15/02/2022
+1115, ,Analyst,24,F," R$ 13,790.34 ",04/02/2012
+1116,Logistics,Technician,26,F," R$ 19,561.63 ",2015-04-21
+1117,Marketing,Analyst,25,F," R$ 3,563.17 ",2020-11-22
+1118,Operations,Assistant,29,M," R$ 6,966.86 ",30/12/2018
+1119,Legal,Coordinator,51,F," R$ 9,189.81 ",2013-09-10
+1120,Logistics,Manager,50,M," R$ 14,053.92 ",2018-10-04
+1121,Logistics,Assistant,65,F," R$ 9,298.12 ",2020-03-16
+1122,Marketing,Technician,40,F," R$ 5,605.59 ",2022-06-19
+1123,Operations,Director,41,F," R$ 2,276.60 ",2020-11-30
+1124,Operations,Technician,54,F," R$ 14,665.19 ",2016-08-27
+1125,HR,,52,M," R$ 18,545.19 ",2011-04-25
+1126,Operations,Coordinator,61,F," R$ 11,892.67 ",2022-02-28
+1127,,Technician,57,M," R$ 15,070.50 ",2017-01-13
+1128,Finance,Analyst,39,M," R$ 12,064.05 ",2023-02-07
+1129,Logistics, ,44,M," R$ 12,492.78 ",2021-11-29
+1130,Operations,Coordinator,52,M," R$ 8,254.55 ",2021-05-23
+1131,Logistics,Coordinator,18,F," R$ 16,679.27 ",2014-03-03
+1132,Finance,Director,52,F," R$ 6,073.32 ",2011-07-11
+1133,Operations,Manager,54,M," R$ 19,335.03 ",2015-04-11
+1134,Logistics,Manager,64,M," R$ 10,185.66 ",2022-10-11
+1135,Logistics,Manager,31,F," R$ 9,271.22 ",2023-05-03
+1136,HR,Assistant,20,F," R$ 2,083.73 ",2011-11-03
+1137,Logistics,Manager,18,F," R$ 5,150.63 ",2023-02-03
+1138,Legal, ,22,M," R$ 11,112.29 ",04/02/2017
+1139,Marketing,Technician,43,F," R$ 12,055.35 ",2014-08-01
+1140,Operations,Director,31,F," R$ 11,057.04 ",2017-01-17
+1141,IT,Coordinator,56,M," R$ 8,119.39 ",2018-11-17
+1142,,Assistant,44,F," R$ 4,106.16 ",2016-09-23
+1143,HR,Technician,26,M, ,2011-08-18
+1144,Legal,Director,32,M," R$ 6,638.48 ",07/12/2023
+1145,Logistics,Assistant,32,M," R$ 11,682.26 ",2012-03-30
+1146,Legal,Specialist,43,F," R$ 16,281.01 ",2014-10-13
+1147,Logistics,Director,59,M," R$ 6,502.55 ",21/12/2012
+1148,IT,Specialist,30,M," R$ 9,969.84 ",18/07/2011
+1149,Finance,Technician,49,M," R$ 8,787.45 ",2018-04-16
+1150,Logistics,Specialist,56,M," R$ 10,705.34 ",30/10/2019
+1151,HR,Manager,49,M," R$ 6,378.92 ",2016-10-14
+1152,Marketing,Specialist,21,M," R$ 8,113.89 ",2021-11-12
+1153,Finance,Manager,47,F," R$ 15,960.78 ",2022-06-10
+1154,Finance,Technician,54,M," R$ 14,268.70 ",28/04/2012
+1155,Logistics,Specialist,40,F," R$ 18,137.43 ",2013-01-05
+1156,Logistics,Director,56,M," R$ 17,516.42 ",2012-05-26
+1157,,Specialist,62,M," R$ 10,675.46 ",2013-06-27
+1158,Marketing,Specialist,32,F," R$ 6,640.76 ",2023-07-26
+1159,Logistics,Analyst,60,F," R$ 8,888.12 ",2017-09-09
+1160,HR,Director,46,M," R$ 16,195.81 ",2015-12-03
+1161,Logistics,Assistant,53,M," R$ 5,966.88 ",20/08/2015
+1162,Logistics,Director,30,F," R$ 14,621.17 ",2011-02-21
+1163,IT,Technician,49,F," R$ 16,402.91 ",02/07/2019
+1164,IT,Coordinator,24,F," R$ 9,423.67 ",2010-12-28
+1165,Logistics,Analyst,39,F," R$ 8,355.73 ",2012-12-07
+1166,,Director,45,F," R$ 11,641.73 ",2015-11-16
+1167,Operations,Analyst,19,M," R$ 14,614.73 ",2019-11-29
+1168,Legal,Analyst,59,F," R$ 6,740.29 ",2019-08-05
+1169,Finance,Specialist,62,M," R$ 7,171.21 ",2012-07-05
+1170,,Director,23,F," R$ 9,180.75 ",2013-05-06
+1171,Legal,Director,45,M," R$ 15,478.19 ",2018-04-13
+1172,Operations,Manager,45,M," R$ 8,155.87 ",2013-04-28
+1173,Legal, ,61,M," R$ 11,981.93 ",2010-12-09
+1174,Marketing,Director,61,M," R$ 5,212.74 ",23/11/2010
+1175,IT,Manager,37,M," R$ 7,649.71 ",2014-09-17
+1176,Operations,Manager,47,F," R$ 5,934.19 ",2012-04-22
+1177,IT,Coordinator,28,F," R$ 12,326.83 ",23/07/2022
+1178,Logistics,Specialist,45,F," R$ 5,290.12 ",12/02/2019
+1179,IT,Director,42,F," R$ 15,430.81 ",20/06/2013
+1180,Logistics,Assistant,56,F," R$ 18,744.59 ",24/04/2015
+1181,IT,Analyst,50,F," R$ 5,423.01 ",21/12/2013
+1182, ,Technician,18,F," R$ 15,268.02 ",2010-07-23
+1183,HR,Manager,44,M," R$ 6,227.50 ",2017-06-14
+1184,Operations,Technician,30,M," R$ 6,357.02 ",27/03/2019
+1185,Finance,Director,58,F," R$ 6,777.30 ",2015-07-26
+1186,Operations,Assistant,20,F," R$ 6,125.74 ",2012-06-04
+1187,Finance,Analyst,56,M," R$ 17,028.93 ",14/11/2010
+1188,Operations,Director,23,F," R$ 17,054.02 ",2014-12-28
+1189,Operations,Assistant,25,M," R$ 8,408.49 ",2020-04-28
+1190,IT,Specialist,44,F," R$ 16,020.89 ",2015-02-08
+1191,Finance,Analyst,26,F," R$ 4,157.81 ",2014-05-02
+1192,Legal,Assistant,54,M," R$ 3,412.78 ",01/04/2016
+1193,Finance,Manager,50,M," R$ 19,204.03 ",2016-04-05
+1194,Finance,Director,59,F," R$ 10,867.97 ",2021-06-05
+1195,Operations,Assistant,61,F," R$ 2,119.23 ",2022-01-10
+1196,Finance,Assistant,41,F," R$ 17,427.61 ",2010-08-15
+1197,,Director,32,M," R$ 19,243.88 ",2015-11-10
+1198,Operations,Analyst,49,F," R$ 17,264.19 ",2015-12-15
+1199,Legal,Director,49,F," R$ 8,681.54 ",2023-05-20
+1200,Logistics,Assistant,41,F," R$ 7,677.50 ",2017-01-13
+1201,,Technician,58,F," R$ 18,166.18 ",2021-06-21
+1202,IT,Specialist,29,F," R$ 17,857.77 ",2022-12-07
+1203,Logistics,Coordinator,56,M," R$ 12,341.35 ",2010-12-30
+1204,Logistics,Technician,19,M," R$ 6,945.19 ",2010-01-14
+1205,Marketing,Analyst,20,M," R$ 5,291.69 ",2022-01-28
+1206,HR,Assistant,54,F," R$ 15,756.72 ",2014-06-03
+1207,Finance,Coordinator,34,F," R$ 11,200.41 ",28/07/2011
+1208,Logistics,Specialist,19,F," R$ 9,161.83 ",2017-05-28
+1209,Legal,Analyst,19,F," R$ 15,503.05 ",2012-10-17
+1210,IT,Technician,45,F," R$ 4,308.43 ",2016-09-26
+1211,Legal, ,40,M, ,2019-02-28
+1212,Logistics,Director,54,M," R$ 9,617.17 ",2016-08-19
+1213,IT,Analyst,49,F," R$ 18,913.78 ",2014-04-21
+1214,IT,Analyst,50,M," R$ 2,586.13 ",2018-07-03
+1215,IT,Assistant,18,F," R$ 8,251.20 ",2013-11-26
+1216,Legal,Coordinator,36,F," R$ 17,487.20 ",2016-10-01
+1217,Finance,Technician,19,F," R$ 15,966.27 ",2010-01-04
+1218,Logistics,Analyst,61,M," R$ 10,229.53 ",2014-09-18
+1219,IT,Director,43,M," R$ 4,166.63 ",2023-01-04
+1220,Logistics,Analyst,49,M," R$ 11,327.69 ",2017-03-24
+1221,Logistics,Analyst,23,F," R$ 7,681.72 ",2019-12-02
+1222,Legal,Assistant,49,F," R$ 2,151.53 ",2021-06-19
+1223,Marketing,Analyst,21,M," R$ 14,133.86 ",2013-10-22
+1224,Marketing,Coordinator,28,M," R$ 8,829.70 ",2016-05-13
+1225,IT,Assistant,34,M," R$ 3,813.46 ",2023-11-21
+1226,Operations,Manager,55,M," R$ 8,508.84 ",2015-04-09
+1227,Legal,Specialist,41,M," R$ 17,513.16 ",15/01/2015
+1228,Finance,Manager,22,M," R$ 5,368.74 ",2013-04-22
+1229,Legal,Specialist,51,M," R$ 6,731.28 ",29/06/2015
+1230,Marketing,Technician,23, ," R$ 6,849.35 ",17/09/2023
+1231,Marketing,Technician,39,F," R$ 19,253.48 ",2011-08-20
+1232,Marketing,Technician,28,M," R$ 8,175.74 ",2022-11-29
+1233,HR,Assistant,65,F," R$ 5,310.45 ",2018-08-12
+1234,Legal,Coordinator,33,M," R$ 9,630.97 ",2015-06-22
+1235,Logistics,Assistant,50,F," R$ 9,543.67 ",15/02/2010
+1236,Logistics,Assistant,26,F," R$ 15,539.52 ",2012-05-23
+1237,HR,Specialist,23, ," R$ 8,571.40 ",2014-11-28
+1238,Marketing,Assistant,33,F," R$ 9,210.67 ",2021-08-14
+1239,Operations,Assistant,46,M," R$ 10,113.12 ",2022-07-03
+1240,Legal,Analyst,20,M," R$ 12,285.37 ",2012-09-21
+1241,Finance,Technician,37,M," R$ 19,626.90 ",2020-06-03
+1242,Legal,Technician,53,F," R$ 14,348.21 ",2022-07-15
+1243,Finance,Specialist,36,, ,2019-12-05
+1244,Marketing,Director,43,F," R$ 14,974.68 ",2021-04-28
+1245,Marketing,Manager,20,M," R$ 16,473.58 ",2022-04-16
+1246,Finance, ,36,F," R$ 11,996.12 ",2013-07-27
+1247,Operations,Specialist,37,F," R$ 17,413.56 ",2020-08-24
+1248,HR,Coordinator,49,F," R$ 5,529.14 ",19/07/2015
+1249,Logistics,Analyst,24,M, ,2016-03-21
+1250,Logistics,Manager,58,F," R$ 15,293.76 ",2021-09-10
+1251,Logistics,Director,50,M," R$ 10,513.77 ",2015-05-14
+1252,Legal,Assistant,57,F," R$ 2,175.36 ",2011-09-27
+1253,HR, ,56,M," R$ 9,587.37 ",2015-04-05
+1254,Legal,Manager,35,F," R$ 4,420.49 ",04/03/2017
+1255,Marketing,Technician,57,M," R$ 18,078.87 ",2011-10-23
+1256,Legal,Manager,18,M," R$ 13,351.74 ",2015-03-10
+1257,Legal,Specialist,28,M,,2013-06-05
+1258,Legal,Analyst,45,M," R$ 7,683.09 ",2011-06-11
+1259,Finance,Specialist,42,M," R$ 10,759.16 ",2017-06-03
+1260,Logistics,Analyst,40,M," R$ 6,517.53 ",2019-04-30
+1261,HR,Coordinator,48,F," R$ 17,453.04 ",2019-06-04
+1262,Logistics,Assistant,47,F," R$ 2,858.77 ",06/02/2023
+1263,Operations, ,59, ,,10/06/2010
+1264,Marketing,Technician,52,M," R$ 4,940.15 ",2022-11-30
+1265,IT,Director,24,F," R$ 5,878.41 ",18/02/2010
+1266,Marketing,Assistant,33,M," R$ 6,577.21 ",2016-09-12
+1267,Logistics,Director,43,M," R$ 17,101.49 ",2019-05-26
+1268,IT,Assistant,65,M," R$ 3,733.43 ",2022-04-01
+1269,Marketing,Specialist,19,M," R$ 15,402.68 ",2014-12-12
+1270,Finance,Manager,18,F," R$ 6,675.84 ",2016-02-14
+1271,Finance,Manager,65,F," R$ 8,485.52 ",2010-08-26
+1272,Logistics,Assistant,29,F," R$ 12,034.85 ",2019-01-26
+1273,Finance,Coordinator,22,F," R$ 16,580.29 ",25/06/2020
+1274,Finance,Manager,54,F," R$ 8,194.52 ",2023-12-16
+1275, ,Coordinator,49,F," R$ 9,411.70 ",2018-11-02
+1276,Operations,Manager,26,F," R$ 8,319.63 ",2010-08-11
+1277,IT,Technician,58,F," R$ 14,232.55 ",2019-08-13
+1278,Operations,Specialist,52,M," R$ 12,900.37 ",2020-05-10
+1279,Logistics,Analyst,36,F," R$ 12,383.37 ",2015-11-02
+1280,Marketing,Analyst,65,F," R$ 13,697.58 ",2014-09-30
+1281,Logistics,Specialist,33,F," R$ 11,691.89 ",2017-07-27
+1282,Finance,,20,M," R$ 19,628.72 ",2018-07-03
+1283,Legal,Assistant,37,M," R$ 7,122.96 ",2019-06-16
+1284,Logistics,Director,41,F," R$ 7,851.63 ",2011-11-02
+1285,HR,Specialist,50,F," R$ 11,188.00 ",2022-02-05
+1286,HR,Analyst,41,F," R$ 15,945.40 ",2017-11-06
+1287,HR,Manager,28,M," R$ 10,044.74 ",2011-07-17
+1288,Legal,Manager,25,F, ,2010-11-26
+1289,Logistics,Analyst,53,M," R$ 13,045.95 ",2015-07-19
+1290,Logistics,Analyst,55,F," R$ 10,347.54 ",2010-06-16
+1291,Marketing,Director,57,F," R$ 19,218.70 ",2015-05-09
+1292,HR,Analyst,37,F," R$ 17,628.64 ",2012-07-26
+1293,HR,Assistant,52,F," R$ 13,530.45 ",2014-11-21
+1294,Logistics,Director,65,F," R$ 18,714.20 ",2015-10-01
+1295, ,Technician,42, ," R$ 9,592.70 ",2013-10-06
+1296,Marketing,Technician,52,M," R$ 13,021.58 ",2012-07-27
+1297,Marketing,Specialist,42,M," R$ 9,285.91 ",03/09/2013
+1298,HR,Analyst,46,M," R$ 18,327.31 ",2012-06-04
+1299,Marketing,Manager,35,M," R$ 3,424.01 ",2016-12-30
+1300,IT,Technician,63,F," R$ 8,185.26 ",2018-06-02
+1301,Legal,Analyst,35,F," R$ 7,642.68 ",2014-06-13
+1302,IT,Assistant,19,M," R$ 13,754.24 ",2015-06-13
+1303,Legal,Assistant,52,M," R$ 14,787.80 ",06/10/2016
+1304,Finance,Manager,33,F," R$ 12,896.93 ",20/06/2023
+1305,IT,Director,58,F," R$ 9,118.20 ",2022-09-11
+1306,Logistics,Manager,53,," R$ 17,978.45 ",2017-10-15
+1307,Finance,Specialist,50,F," R$ 16,057.53 ",2018-04-24
+1308,HR,Specialist,21,F," R$ 18,897.86 ",2017-08-27
+1309,Legal,Specialist,50,F," R$ 15,462.12 ",04/06/2019
+1310,Finance,Analyst,31,M," R$ 11,376.84 ",2012-05-14
+1311,Finance,Manager,38,M," R$ 10,105.20 ",2018-02-15
+1312,HR,Director,65,F," R$ 5,011.73 ",2020-04-24
+1313,Finance,Coordinator,37,M," R$ 17,375.81 ",2019-10-08
+1314,Legal,Manager,25,F," R$ 4,250.72 ",14/09/2021
+1315,Legal,Specialist,24,F," R$ 6,223.29 ",2016-01-22
+1316,IT,Technician,20,F," R$ 6,529.65 ",2022-01-26
+1317,HR,,34,M," R$ 15,389.76 ",2020-06-05
+1318,,Coordinator,50,M," R$ 15,495.32 ",2023-04-16
+1319,Legal,Director,65,F," R$ 5,790.29 ",05/07/2015
+1320,Finance,Director,29,M," R$ 9,146.82 ",2011-12-11
+1321,Legal,Specialist,39,F," R$ 3,719.97 ",2020-02-10
+1322,Legal,Technician,39,M," R$ 18,862.29 ",2020-06-03
+1323, ,Specialist,63,F,,2018-07-02
+1324,IT,Coordinator,47,M," R$ 2,968.86 ",01/02/2021
+1325,,Manager,55,F," R$ 15,876.81 ",2014-01-29
+1326,Legal,Coordinator,55,," R$ 11,431.69 ",2017-12-16
+1327,HR,Manager,62,M," R$ 19,928.25 ",2017-08-20
+1328,Legal,Technician,25,F," R$ 3,870.71 ",2023-05-16
+1329,HR,Director,44,M,,2016-03-13
+1330,HR,Manager,44,F," R$ 3,517.60 ",03/08/2021
+1331,IT,Assistant,51,F," R$ 18,768.61 ",2011-12-03
+1332,Marketing,Coordinator,38,F," R$ 9,017.23 ",2019-02-12
+1333,HR,Coordinator,47,F," R$ 6,128.41 ",2015-05-23
+1334,IT,Analyst,50,F," R$ 15,276.68 ",2021-01-03
+1335,Operations,Director,45,F," R$ 9,976.89 ",2010-05-22
+1336,IT,Director,64,F," R$ 4,275.41 ",2014-12-21
+1337,Operations,Technician,50,M," R$ 11,481.36 ",2015-06-17
+1338,Legal,Manager,22,F," R$ 5,070.94 ",2023-01-17
+1339,Marketing,Technician,65,M," R$ 2,632.79 ",2022-06-01
+1340, ,Technician,36,M," R$ 8,423.14 ",18/07/2019
+1341,HR,Assistant,21,F," R$ 18,474.90 ",2022-05-06
+1342,Legal,Director,52,M," R$ 17,556.34 ",2020-03-06
+1343,Finance,Assistant,34,M," R$ 10,409.48 ",2015-08-22
+1344,Logistics,Analyst,61,F," R$ 17,676.17 ",2014-04-27
+1345,HR,Coordinator,45,F," R$ 18,827.44 ",07/01/2022
+1346,,Technician,47,F," R$ 11,873.81 ",2014-02-25
+1347,Marketing,Technician,46,M," R$ 4,432.07 ",2020-11-10
+1348,Legal,Assistant,63,M," R$ 19,072.75 ",23/03/2023
+1349,IT,Specialist,23,M," R$ 11,707.18 ",2021-10-07
+1350,Marketing,,52,M, ,03/04/2012
+1351,HR,Coordinator,58,F, ,2016-08-23
+1352,IT,Technician,54,F," R$ 15,480.41 ",2014-01-09
+1353,Marketing,Assistant,41,F," R$ 17,791.29 ",2021-12-24
+1354,HR,Assistant,46,M," R$ 9,829.59 ",08/01/2011
+1355,Legal,Manager,63,F," R$ 13,516.16 ",2022-05-31
+1356,Logistics,Coordinator,48,M," R$ 11,608.11 ",2012-10-31
+1357,HR,Assistant,52,M," R$ 18,360.62 ",2021-01-04
+1358,HR,Manager,50,F," R$ 10,669.73 ",2010-04-11
+1359,Finance,Specialist,38,F," R$ 6,088.31 ",2020-07-12
+1360,Finance,Director,49,M," R$ 3,611.97 ",2017-08-23
+1361,Finance,Assistant,40,F," R$ 7,541.63 ",2011-02-25
+1362,IT,Manager,50,M," R$ 9,419.67 ",2020-09-18
+1363,Marketing,Specialist,20,M," R$ 4,802.92 ",2011-06-20
+1364,Logistics,Manager,35,F," R$ 2,190.00 ",2011-08-30
+1365,Logistics,Coordinator,42,F," R$ 11,419.69 ",2011-03-16
+1366,Logistics,Specialist,59,M," R$ 15,649.28 ",16/08/2022
+1367,Logistics,Technician,48,M," R$ 4,453.41 ",29/11/2011
+1368,IT,Manager,20,M," R$ 7,161.72 ",2012-08-28
+1369,Legal,Specialist,57,F," R$ 11,631.78 ",2019-05-03
+1370,Legal,Assistant,63,M," R$ 14,379.86 ",2023-11-15
+1371,IT,Analyst,41,M," R$ 10,854.77 ",2021-09-20
+1372,HR,Director,49,F," R$ 15,598.51 ",2019-12-06
+1373,Operations,Assistant,64,F,,15/03/2023
+1374,Operations,Assistant,39,F," R$ 15,785.65 ",2016-11-06
+1375,HR,Director,40,F," R$ 16,363.37 ",2011-05-09
+1376,Operations,Director,19,F," R$ 12,746.07 ",23/03/2012
+1377,Legal,Manager,44,F," R$ 16,341.81 ",2014-08-30
+1378,IT,Assistant,59,M," R$ 11,867.82 ",2015-12-08
+1379,Marketing,Manager,19,M," R$ 5,394.28 ",2013-07-10
+1380,Finance,Coordinator,43,M,,2022-05-19
+1381,Legal,Manager,34,F," R$ 9,867.91 ",2010-01-22
+1382,IT,Coordinator,57,M," R$ 6,498.13 ",2023-04-27
+1383,Legal, ,50,F," R$ 14,868.88 ",2010-09-25
+1384,Legal, ,26, ," R$ 13,627.83 ",2016-05-05
+1385,IT,Assistant,60,M," R$ 16,911.68 ",2020-03-08
+1386,Marketing,Specialist,65,M," R$ 5,970.66 ",28/03/2015
+1387, ,Coordinator,56,M," R$ 3,425.78 ",2023-03-25
+1388,Legal,Analyst,46,M," R$ 13,255.81 ",2014-06-09
+1389,Marketing,Director,59,F,,2022-03-20
+1390,Logistics,Technician,43,F," R$ 16,399.26 ",05/05/2013
+1391,IT,Specialist,52,M," R$ 13,037.89 ",2013-03-11
+1392,HR,Manager,42,M," R$ 14,490.64 ",2013-09-21
+1393,HR,Analyst,41,F," R$ 6,893.57 ",2023-05-07
+1394,IT,Coordinator,30,F," R$ 13,672.23 ",07/10/2022
+1395,Logistics,Assistant,24,M," R$ 11,575.00 ",2019-11-07
+1396,HR,Technician,53,," R$ 6,838.80 ",2016-10-27
+1397,Operations,Director,62,M," R$ 5,384.01 ",2016-02-09
+1398,Legal,Director,37,F," R$ 3,232.35 ",2021-01-28
+1399,Marketing,Analyst,18,F," R$ 4,459.23 ",2023-06-01
+1400,Finance,Specialist,25,F,,2019-09-10
+1401,Marketing,Analyst,63,F," R$ 10,196.17 ",2023-07-17
+1402, ,Manager,33,F," R$ 10,149.81 ",2012-01-19
+1403,Logistics,Specialist,31, ," R$ 14,608.51 ",2022-11-26
+1404,IT,Specialist,29,F," R$ 10,855.93 ",19/06/2010
+1405,IT,Director,40,F," R$ 7,771.59 ",2016-01-17
+1406,Finance,Technician,32,F," R$ 4,738.69 ",2013-12-06
+1407,Legal,Technician,45,M," R$ 19,454.89 ",02/12/2019
+1408,HR,Director,51,M," R$ 2,398.36 ",26/01/2014
+1409,IT,Manager,19,," R$ 19,501.99 ",2019-10-11
+1410,Operations,Assistant,49,M," R$ 7,078.06 ",11/01/2021
+1411,Operations,Manager,40,," R$ 4,250.71 ",2020-07-17
+1412, ,,39,M," R$ 9,891.50 ",2017-06-23
+1413,Legal, ,42,M," R$ 2,147.67 ",06/05/2012
+1414,Operations,Coordinator,39,M," R$ 3,623.55 ",2017-05-25
+1415,Finance,Analyst,39,M," R$ 2,265.05 ",2021-02-10
+1416,Logistics,Manager,59,M," R$ 5,909.39 ",25/12/2018
+1417,Legal,Manager,23,M," R$ 9,564.37 ",2022-05-04
+1418,HR,Technician,32,F," R$ 16,143.06 ",2011-12-23
+1419,Logistics,Analyst,60,M," R$ 10,971.12 ",2017-04-02
+1420,Logistics,Technician,54,F," R$ 8,685.15 ",25/01/2019
+1421,Legal,Specialist,50,F," R$ 14,544.83 ",2010-01-10
+1422,Finance,Assistant,25, ," R$ 2,571.27 ",2022-03-03
+1423,IT,Manager,61,M," R$ 3,444.02 ",2011-03-21
+1424,Operations,Technician,61,M," R$ 15,510.25 ",2018-02-11
+1425,Operations,Director,22,M," R$ 4,629.58 ",2021-03-07
+1426, ,Technician,56,M," R$ 6,797.06 ",2011-02-27
+1427,IT,Manager,21,M," R$ 9,063.59 ",2022-04-27
+1428,Legal,Assistant,23,F," R$ 11,777.46 ",2016-06-17
+1429,Marketing,Manager,62,F," R$ 5,268.87 ",2020-11-14
+1430,Finance,,49,F," R$ 18,122.58 ",2023-08-28
+1431,Legal,Coordinator,47,M," R$ 6,501.43 ",2013-07-21
+1432,HR,Specialist,64,F," R$ 8,868.39 ",2010-04-23
+1433,Logistics,Coordinator,52, ," R$ 2,227.08 ",2012-02-03
+1434,Logistics,Assistant,57,M," R$ 19,542.77 ",2012-07-18
+1435,IT,Assistant,33,M," R$ 14,864.29 ",2012-08-20
+1436,Marketing,Director,30,M," R$ 8,926.36 ",2013-06-15
+1437,Marketing,Technician,59,F," R$ 19,549.50 ",2016-07-18
+1438,HR,Coordinator,47,F," R$ 6,448.92 ",2016-02-18
+1439,IT,Coordinator,36,M," R$ 19,901.64 ",27/10/2020
+1440,Marketing,Coordinator,34,F," R$ 5,585.24 ",2015-06-20
+1441,Legal,Coordinator,36,M,,2013-03-30
+1442,Operations,Director,45,F," R$ 3,691.29 ",2023-06-12
+1443,HR,Assistant,43,M," R$ 13,988.14 ",23/01/2013
+1444, ,Assistant,54,M," R$ 5,752.05 ",2016-03-13
+1445,HR,Analyst,43,F," R$ 9,004.21 ",2019-04-23
+1446,Finance,Specialist,40,M," R$ 19,301.85 ",2021-05-22
+1447,Finance,Technician,26,M," R$ 18,851.87 ",2010-01-22
+1448,IT,Assistant,29,F," R$ 4,855.01 ",11/09/2016
+1449,Marketing,Specialist,18,M," R$ 15,108.27 ",03/01/2023
+1450,Logistics,Specialist,18,M," R$ 15,405.04 ",25/12/2020
+1451,Logistics,Coordinator,64,F," R$ 11,892.44 ",2020-01-07
+1452,Operations,Manager,51,M," R$ 4,198.55 ",2017-09-28
+1453,Marketing,,49,F," R$ 10,662.13 ",2022-03-10
+1454,Finance,Coordinator,65,F," R$ 7,378.64 ",21/03/2017
+1455,Operations,Assistant,42,F," R$ 8,487.68 ",2015-05-11
+1456,Legal,Analyst,57,M," R$ 2,937.58 ",29/03/2015
+1457,IT,Director,62,M," R$ 14,000.51 ",2019-03-20
+1458,Logistics,Specialist,18,F," R$ 19,518.93 ",2020-08-10
+1459,Marketing,Manager,33,M," R$ 6,247.39 ",2018-07-21
+1460,Logistics,Technician,56,F," R$ 9,814.91 ",2013-05-31
+1461,HR,Manager,22,F," R$ 2,271.22 ",2010-10-31
+1462,HR,Analyst,39,M," R$ 16,299.03 ",2023-03-28
+1463,Operations,Coordinator,46,M," R$ 12,524.54 ",02/04/2012
+1464,HR,Director,20,M," R$ 9,124.55 ",2019-11-16
+1465,HR,Director,29,M," R$ 6,375.61 ",2020-04-01
+1466,Finance,Director,43, ," R$ 19,439.03 ",2013-03-26
+1467,IT,Technician,33,F," R$ 12,459.39 ",2013-06-18
+1468,HR,Assistant,54,M," R$ 14,433.53 ",2015-12-12
+1469,HR,Coordinator,39,M,,2018-12-01
+1470,Logistics,Manager,46,M," R$ 4,789.85 ",15/05/2017
+1471,Marketing,Manager,31,M," R$ 15,874.35 ",2021-12-20
+1472,Operations,Coordinator,45,F," R$ 6,477.00 ",2017-02-07
+1473,Finance,Manager,22,M," R$ 10,998.55 ",11/12/2020
+1474,Legal,Assistant,64,F," R$ 14,347.00 ",2010-10-22
+1475,,Director,47,F," R$ 8,091.60 ",2015-04-08
+1476,Operations,Specialist,63,F," R$ 19,453.73 ",12/06/2016
+1477,Logistics,Manager,22,F," R$ 15,672.08 ",2012-01-11
+1478,Marketing,Assistant,29,M," R$ 3,080.94 ",2012-03-17
+1479,Marketing,Director,33,M," R$ 8,399.32 ",2012-04-03
+1480,Legal,Technician,43,M," R$ 4,770.53 ",19/09/2016
+1481,Marketing,Technician,43, ," R$ 11,654.36 ",2011-01-12
+1482,HR,Coordinator,65,F," R$ 3,933.05 ",2011-04-05
+1483,Legal,Coordinator,38,F," R$ 10,781.17 ",2018-05-29
+1484,Operations,Specialist,56,,,2015-06-24
+1485,Operations,Specialist,53,F,,2022-09-11
+1486,Operations,Assistant,50,M," R$ 13,603.63 ",2014-01-15
+1487,IT,Technician,47,M," R$ 8,251.72 ",2011-10-09
+1488, ,Technician,54,M," R$ 18,052.33 ",2018-07-31
+1489,HR,Technician,40,M," R$ 15,197.40 ",2015-05-27
+1490,Finance,Assistant,27,M," R$ 2,384.35 ",2023-01-30
+1491,HR,Assistant,22,M," R$ 8,799.84 ",2020-05-05
+1492,Operations,Manager,53,F," R$ 15,039.18 ",2020-04-22
+1493,IT,Technician,51,F," R$ 6,512.53 ",18/03/2010
+1494,Logistics,Specialist,48,F," R$ 2,710.79 ",08/06/2020
+1495,IT,Coordinator,27,F," R$ 14,719.27 ",2022-04-05
+1496,Operations,Manager,36,M," R$ 12,062.45 ",28/11/2019
+1497,Finance,Manager,49,F," R$ 11,769.21 ",2023-03-07
+1498,Marketing,Technician,18,F," R$ 10,821.66 ",2019-07-08
+1499,Operations,Director,22,M," R$ 12,200.63 ",31/03/2020
+1500,Legal,Assistant,62,," R$ 11,785.17 ",20/06/2014
+1501,Logistics,Manager,21,F," R$ 7,826.26 ",2020-11-02
+1502,Logistics,Director,33,F," R$ 10,431.10 ",2018-07-22
+1503,Legal,Technician,41,F," R$ 17,617.91 ",2022-11-22
+1504,Legal,Analyst,33,F," R$ 12,776.24 ",2016-08-15
+1505,Legal,Director,19,F," R$ 17,490.10 ",2018-11-17
+1506,HR,Analyst,45,F," R$ 4,886.18 ",11/09/2022
+1507,Finance,Specialist,49,F," R$ 11,560.47 ",06/02/2011
+1508,Legal,Specialist,44,M," R$ 10,088.92 ",21/02/2021
+1509,Marketing,Analyst,37,M," R$ 16,749.53 ",2016-06-02
+1510,Legal,Specialist,41,M," R$ 11,748.91 ",2015-03-01
+1511,Logistics,Technician,29,M," R$ 10,173.42 ",2017-11-26
+1512,IT,Analyst,52,M," R$ 15,966.52 ",2014-04-07
+1513,HR,Specialist,50,M," R$ 11,107.24 ",2013-01-25
+1514,IT,Analyst,50,F," R$ 15,205.84 ",2010-11-19
+1515,HR,Assistant,60,F," R$ 17,892.78 ",2019-11-21
+1516,Marketing,Manager,54,F," R$ 13,155.22 ",2018-03-08
+1517,HR,Specialist,29,M," R$ 8,553.35 ",09/01/2012
+1518,Marketing,Technician,20,F," R$ 13,163.55 ",2017-04-30
+1519,Operations,Manager,18,F," R$ 7,772.49 ",2013-12-09
+1520,Operations,Analyst,50,M," R$ 3,140.15 ",05/02/2022
+1521,HR,Technician,57,M," R$ 19,408.94 ",2018-03-17
+1522,Finance,Manager,27,F," R$ 16,742.90 ",11/02/2016
+1523,Legal,Analyst,60,F," R$ 5,417.65 ",07/10/2015
+1524,Legal,Manager,61,M," R$ 14,298.04 ",22/10/2020
+1525,Legal,Director,46,F," R$ 15,783.21 ",2016-08-14
+1526,Legal,Assistant,30,," R$ 4,774.37 ",06/08/2017
+1527,,Coordinator,29,M," R$ 7,096.32 ",03/07/2020
+1528,HR,Analyst,48,M," R$ 9,376.48 ",2013-02-27
+1529,HR,Director,63,F, ,23/01/2015
+1530,Legal,Technician,19,F," R$ 3,732.61 ",30/11/2018
+1531,IT,Technician,52,M," R$ 13,860.04 ",2022-07-02
+1532,Legal,Director,40,M," R$ 2,787.99 ",2018-11-07
+1533,HR,Assistant,34,F," R$ 18,880.39 ",2022-01-13
+1534,IT,Technician,43,M," R$ 5,215.50 ",2018-04-08
+1535, ,Assistant,25,F," R$ 2,562.93 ",2015-11-18
+1536,Finance,Analyst,46,M," R$ 3,926.99 ",2018-05-02
+1537,Operations,Analyst,43,F," R$ 5,449.10 ",2015-03-31
+1538,Operations,Director,27,F," R$ 2,572.71 ",24/11/2023
+1539,Logistics,Director,43,F,,2022-08-05
+1540,Logistics,Assistant,51,M," R$ 8,994.78 ",2023-09-07
+1541,Legal,Analyst,58, ," R$ 10,818.37 ",2011-06-02
+1542,Finance,Analyst,24,M," R$ 13,231.47 ",31/05/2020
+1543,IT,Director,21,M," R$ 12,625.42 ",2016-10-11
+1544,Finance,Technician,62,F," R$ 2,883.54 ",2012-08-13
+1545,IT,Coordinator,28,F," R$ 5,973.01 ",2010-11-01
+1546,Legal,Director,46,M," R$ 14,921.21 ",2021-01-18
+1547,Logistics,Coordinator,53,M," R$ 2,235.55 ",08/04/2015
+1548,Logistics,Analyst,42,F," R$ 18,578.63 ",2013-01-16
+1549,Finance,Director,38,F," R$ 13,803.49 ",2018-04-28
+1550,Legal,Specialist,53,M," R$ 18,711.27 ",2022-02-12
+1551,HR,Technician,27,F," R$ 16,977.40 ",19/06/2013
+1552,Logistics,Technician,54,F," R$ 10,425.06 ",22/03/2012
+1553,HR,Assistant,26,M," R$ 13,500.50 ",2023-10-23
+1554,Finance,Specialist,41,M," R$ 8,496.67 ",2016-04-10
+1555, ,Manager,52,F," R$ 15,382.59 ",2018-04-24
+1556,Marketing,Analyst,52,F," R$ 18,027.75 ",22/12/2019
+1557,Finance,Analyst,65,M," R$ 16,796.48 ",2018-02-19
+1558,,Director,53,M," R$ 16,296.49 ",2018-03-29
+1559,HR,Manager,35,F," R$ 3,049.40 ",2018-01-17
+1560,Finance,,56,F," R$ 13,104.80 ",2016-03-10
+1561,Legal,Manager,49, ," R$ 11,522.37 ",27/09/2012
+1562,Operations,Director,41,M," R$ 15,217.41 ",2020-03-14
+1563,Legal,,40,F," R$ 17,020.22 ",2014-10-04
+1564,HR,Coordinator,49,F," R$ 3,402.84 ",24/05/2023
+1565,Marketing,Specialist,54,F," R$ 5,886.20 ",2011-02-19
+1566,Marketing,Coordinator,29,M," R$ 11,350.73 ",19/06/2015
+1567,Operations,Coordinator,30,F," R$ 3,822.05 ",2022-08-31
+1568,Finance,Specialist,40,M," R$ 6,158.32 ",2022-06-07
+1569,HR,Assistant,42,M," R$ 8,935.96 ",05/11/2014
+1570,Marketing,Analyst,52,F," R$ 5,476.15 ",2015-03-24
+1571,Logistics,Coordinator,58,F," R$ 13,823.78 ",2013-04-23
+1572,Operations,Assistant,47,M," R$ 12,260.50 ",2023-05-15
+1573,IT,Assistant,34,M," R$ 19,055.06 ",31/03/2013
+1574,,Director,37,M," R$ 12,051.62 ",2022-02-12
+1575,IT,Manager,65,F," R$ 12,046.55 ",2013-11-30
+1576,Finance,Technician,42,M," R$ 15,429.95 ",2010-07-31
+1577,Logistics,Manager,39,F," R$ 15,793.10 ",2018-01-13
+1578,HR,Coordinator,30,F," R$ 12,378.15 ",2015-05-04
+1579,Operations,Technician,36,F," R$ 14,140.87 ",2010-05-10
+1580,Legal,Specialist,53,M," R$ 14,645.91 ",2011-03-06
+1581,Legal,Specialist,29,M," R$ 9,687.35 ",2019-06-11
+1582,HR,Analyst,58,F," R$ 3,873.84 ",2011-06-05
+1583,IT, ,36,F,,2018-02-13
+1584,Legal, ,29,F, ,2012-06-12
+1585,Operations,Technician,26,," R$ 11,084.47 ",20/12/2014
+1586,HR,,24,F," R$ 13,835.57 ",2010-12-22
+1587,HR, ,45,M," R$ 11,610.21 ",2021-09-11
+1588,Logistics,Analyst,31,M," R$ 12,798.48 ",2010-09-13
+1589,Logistics,Assistant,48,M," R$ 18,803.36 ",28/09/2020
+1590,HR,Assistant,36,M," R$ 18,244.73 ",2019-07-25
+1591,IT,Assistant,64,," R$ 11,901.46 ",2020-12-30
+1592,HR,,33,F," R$ 19,943.31 ",2019-12-13
+1593,Marketing,Assistant,22,F," R$ 17,207.37 ",2011-10-24
+1594,Finance,Analyst,52,F," R$ 9,422.18 ",2013-04-30
+1595,Marketing,Technician,29,M," R$ 13,398.33 ",2016-03-02
+1596,IT,Analyst,42,M," R$ 16,870.79 ",2023-02-17
+1597,IT,Technician,38,M," R$ 7,822.12 ",2017-04-17
+1598,Logistics,Manager,53,F," R$ 6,333.01 ",2023-05-26
+1599,HR,Analyst,40,M," R$ 11,821.27 ",2020-03-05
+1600,Operations, ,33,F," R$ 8,751.14 ",2019-08-26
+1601,Logistics,Specialist,56,M," R$ 11,904.30 ",26/07/2012
+1602,Legal,Assistant,62,F," R$ 15,402.41 ",2022-05-14
+1603,Legal,Technician,59,M," R$ 8,480.15 ",2014-10-28
+1604,Legal,Specialist,56,M," R$ 10,143.26 ",2015-02-15
+1605,Marketing,Coordinator,31,M," R$ 19,276.84 ",2020-03-04
+1606,IT,Director,48, ," R$ 2,003.52 ",2012-02-18
+1607,Finance,Specialist,22,M," R$ 2,623.93 ",2017-01-04
+1608,IT,Analyst,52,F,,25/05/2018
+1609,Marketing,Director,40,M,,2020-08-21
+1610,Legal,Analyst,46,F,,2011-12-01
+1611,,Manager,60,M," R$ 18,025.84 ",2012-03-02
+1612,Finance,Manager,28,F," R$ 2,118.24 ",11/05/2018
+1613,Logistics,Specialist,35,M," R$ 19,719.10 ",2022-06-24
+1614,HR,Technician,64,M," R$ 5,866.81 ",2022-08-06
+1615,Operations,Director,29,F," R$ 7,668.28 ",2012-09-28
+1616,Finance,Assistant,26,F," R$ 15,887.42 ",27/06/2019
+1617,,Coordinator,27,," R$ 18,980.26 ",26/02/2011
+1618,Operations,Analyst,61,F," R$ 16,802.07 ",2023-06-20
+1619,Legal,Analyst,34,M," R$ 18,544.02 ",2012-04-28
+1620,HR,Technician,55,M," R$ 11,202.89 ",2014-10-09
+1621,IT,Coordinator,24,F," R$ 12,272.03 ",2020-10-25
+1622,IT,Director,63,F," R$ 12,289.01 ",2012-06-05
+1623,Logistics,Director,30,M," R$ 3,697.17 ",2022-06-23
+1624,Operations,Technician,57,M," R$ 10,286.66 ",2016-04-01
+1625,,Analyst,59,M," R$ 4,809.93 ",17/08/2019
+1626,Marketing,Manager,26,M," R$ 6,769.79 ",2023-12-12
+1627,HR,Specialist,44,F," R$ 18,013.26 ",2022-06-27
+1628,Marketing,Coordinator,19,F," R$ 6,497.42 ",2015-12-31
+1629,Logistics,Analyst,22,F," R$ 6,612.39 ",2016-02-17
+1630,Finance,Manager,46,F," R$ 7,405.44 ",06/12/2016
+1631,Logistics,Director,54,M," R$ 12,268.77 ",2017-11-15
+1632,Logistics,Manager,55,F," R$ 12,243.17 ",2013-03-19
+1633,Finance,Specialist,36,F,,2018-12-28
+1634,Finance,Specialist,25,F," R$ 3,389.63 ",2010-09-09
+1635,HR,Technician,65,F," R$ 7,844.46 ",2021-11-24
+1636,,Specialist,62,F," R$ 10,685.60 ",2019-06-02
+1637,Marketing,Assistant,18,M," R$ 10,788.98 ",2013-07-13
+1638,HR,Analyst,39,M," R$ 18,182.43 ",2017-04-11
+1639,Finance,Coordinator,34,F," R$ 14,651.26 ",2022-09-24
+1640,IT,Manager,24,F," R$ 16,751.27 ",2011-03-07
+1641,Finance,Director,42,F," R$ 3,716.55 ",2023-11-10
+1642,Operations,Manager,62,M," R$ 13,560.58 ",2011-10-31
+1643,Logistics,Director,21,M," R$ 2,672.69 ",2019-07-06
+1644,Finance,Specialist,53,M," R$ 16,550.14 ",2019-12-01
+1645,Legal,Specialist,23,F," R$ 8,867.83 ",2014-11-01
+1646,Operations,Assistant,48,F," R$ 16,042.19 ",2012-07-21
+1647,IT,Technician,36,M," R$ 18,593.69 ",2012-06-27
+1648,Marketing,Director,61,M,,2023-04-21
+1649,Finance,Coordinator,56,F, ,2016-12-01
+1650,Operations,Assistant,44,M," R$ 9,817.48 ",12/11/2018
+1651,Marketing,Specialist,27,F," R$ 18,744.43 ",2011-03-25
+1652,Logistics,Technician,43,F," R$ 4,169.73 ",05/10/2016
+1653,Logistics,Manager,36,F," R$ 15,867.02 ",2013-01-29
+1654,IT,Specialist,56,F," R$ 15,458.22 ",2016-06-29
+1655,Legal,Technician,20,F," R$ 17,290.61 ",2010-03-05
+1656,Operations, ,62,M," R$ 18,715.76 ",2019-08-29
+1657,Logistics,Analyst,30,M," R$ 13,409.97 ",2018-07-12
+1658,Logistics,Director,45,M," R$ 13,379.49 ",2015-03-01
+1659,IT,Technician,37,F," R$ 2,974.30 ",2017-12-11
+1660,IT,Coordinator,45,M," R$ 11,438.90 ",2010-12-13
+1661,HR,Analyst,25,M," R$ 7,747.70 ",24/04/2020
+1662,Marketing,Analyst,58,M," R$ 12,168.43 ",2017-01-08
+1663,HR,Assistant,56,," R$ 7,882.97 ",2022-11-11
+1664,IT,Manager,18,F," R$ 14,559.84 ",2019-05-15
+1665,Operations,Specialist,20,M,,2019-02-01
+1666,Finance,Analyst,30,F," R$ 14,125.43 ",2017-04-14
+1667,Legal,Coordinator,45,F," R$ 19,952.61 ",2023-11-12
+1668,Logistics,Director,42,M," R$ 19,478.72 ",2018-02-12
+1669,Legal,Specialist,50,M," R$ 15,551.12 ",2012-05-17
+1670,HR,Director,55,F," R$ 12,354.59 ",2023-03-18
+1671,Finance,Director,23,," R$ 3,621.49 ",2011-10-07
+1672,HR,Assistant,61,M," R$ 9,774.84 ",2016-12-16
+1673,Logistics,Specialist,62,F," R$ 16,154.63 ",2014-12-21
+1674,Legal,Coordinator,49,F," R$ 4,664.22 ",2013-10-09
+1675,Marketing,Analyst,62,M," R$ 8,051.03 ",2012-07-23
+1676,Logistics, ,64,M," R$ 10,565.38 ",08/05/2014
+1677,Legal,Coordinator,38,F," R$ 15,415.67 ",2017-11-02
+1678,Legal,Specialist,33,M," R$ 11,866.74 ",2013-04-24
+1679,Finance,Assistant,38,F," R$ 6,726.04 ",2013-04-14
+1680,HR,Assistant,28,M," R$ 9,173.49 ",2013-11-22
+1681,IT,Manager,54,F," R$ 9,820.84 ",2011-09-10
+1682,Operations, ,53,F," R$ 14,561.67 ",2021-01-30
+1683,IT,Director,52, ," R$ 15,716.59 ",2022-08-24
+1684,Marketing,Assistant,36,F," R$ 10,656.61 ",2020-01-26
+1685,Marketing,Assistant,37,M," R$ 5,565.95 ",2022-08-30
+1686,HR,Manager,35,M," R$ 9,115.74 ",01/04/2017
+1687,IT,Technician,64,F," R$ 12,283.95 ",2017-02-02
+1688,Legal,,58,M," R$ 12,101.02 ",2011-07-14
+1689,Finance,Technician,31,F," R$ 19,947.42 ",2016-10-16
+1690,HR,Assistant,32,M," R$ 11,436.46 ",2023-04-07
+1691,HR,Analyst,48,F," R$ 6,361.67 ",2021-05-19
+1692,IT, ,18,M," R$ 6,792.63 ",2020-05-10
+1693,Logistics,Director,20,M," R$ 9,741.18 ",2011-04-12
+1694,Operations,Coordinator,33,F," R$ 14,325.28 ",2016-06-09
+1695,Marketing,Specialist,40,F," R$ 12,368.33 ",2012-01-10
+1696,Legal,Manager,28, ," R$ 4,025.54 ",2021-05-16
+1697,Finance,Technician,29,M," R$ 9,444.48 ",2023-01-07
+1698,Marketing,Analyst,27,M," R$ 8,574.82 ",2010-12-03
+1699,Legal,Analyst,49,M," R$ 5,428.82 ",2022-10-28
+1700,HR,Coordinator,33,M," R$ 8,201.45 ",2017-03-18
+1701,Operations,Manager,25,F," R$ 13,797.38 ",2021-03-31
+1702,HR,Assistant,55,M," R$ 15,854.26 ",2011-05-22
+1703,Operations,Technician,29,F," R$ 5,046.59 ",14/09/2017
+1704,IT,Specialist,41,F," R$ 8,294.90 ",2011-11-22
+1705,Legal,Technician,45,," R$ 16,788.51 ",2013-11-14
+1706,Logistics,Manager,25,M," R$ 16,450.33 ",27/10/2019
+1707,Marketing,Technician,45,M," R$ 13,217.28 ",2021-10-03
+1708,HR,Assistant,53,F," R$ 9,928.34 ",2013-07-24
+1709,Operations,Coordinator,43,M," R$ 18,635.84 ",2016-05-06
+1710,Operations,Coordinator,25,F," R$ 6,202.81 ",2017-08-03
+1711,HR,Analyst,45,F,,2011-03-05
+1712,Marketing,Analyst,45,M," R$ 4,807.84 ",2017-07-04
+1713,Legal,Analyst,54,M," R$ 15,112.76 ",2012-02-14
+1714,IT,Coordinator,58,M," R$ 3,544.66 ",2018-09-02
+1715,IT,Assistant,53,F," R$ 15,312.47 ",09/07/2023
+1716,Finance,Coordinator,44,M," R$ 6,374.87 ",2017-06-23
+1717,Finance,Specialist,34,F," R$ 13,178.04 ",04/03/2013
+1718,Logistics,Coordinator,26,F," R$ 4,658.19 ",16/12/2016
+1719,Finance,Analyst,50,F," R$ 16,984.01 ",2018-10-16
+1720,Logistics,Manager,37,M, ,2011-11-26
+1721,Marketing,Analyst,30,F," R$ 8,178.88 ",2018-06-13
+1722,Legal, ,45,M," R$ 16,477.05 ",14/05/2017
+1723,Logistics,Assistant,65,," R$ 7,492.12 ",2021-10-22
+1724,Legal,Assistant,46,M," R$ 10,481.43 ",2019-07-01
+1725,Finance,Director,30,M," R$ 7,973.78 ",2010-05-30
+1726,Finance,Director,63,F," R$ 15,320.23 ",16/01/2014
+1727,Marketing,Director,52,F," R$ 5,813.76 ",31/08/2017
+1728,Finance,Assistant,23,M," R$ 11,835.64 ",2020-11-27
+1729,IT,Analyst,35,F," R$ 15,506.39 ",2013-01-31
+1730,HR,Analyst,22,M,,20/08/2016
+1731,IT,Analyst,64,M,,2012-04-08
+1732,IT,Coordinator,42,F," R$ 19,861.44 ",08/02/2022
+1733,Logistics,Director,19,F," R$ 14,511.28 ",2021-10-23
+1734,Logistics,Analyst,27,F," R$ 14,028.69 ",21/07/2017
+1735,Operations,Director,47,F," R$ 8,778.92 ",2023-11-11
+1736,HR,Director,62, , ,2018-06-14
+1737,IT,Specialist,22,F," R$ 11,482.38 ",21/01/2014
+1738,HR,Coordinator,50,M," R$ 6,598.21 ",2013-09-18
+1739,IT,Specialist,18,M," R$ 3,081.98 ",2010-12-24
+1740,Marketing,Assistant,35,F," R$ 5,612.53 ",30/04/2015
+1741,Marketing,Analyst,49,F," R$ 14,537.48 ",2023-09-11
+1742,Finance,Coordinator,64,M," R$ 6,883.07 ",2020-01-26
+1743,Marketing,Assistant,28,M," R$ 10,369.29 ",2015-05-14
+1744,HR,Assistant,38,M," R$ 19,013.18 ",09/07/2020
+1745,Operations,Specialist,43,F," R$ 3,198.76 ",2014-05-09
+1746,Finance,Analyst,42,F," R$ 13,886.71 ",17/10/2022
+1747,Logistics,Technician,39,M," R$ 13,933.67 ",2020-05-10
+1748,IT,Director,44,F," R$ 18,431.64 ",2018-07-26
+1749,Marketing,Manager,30,F," R$ 8,483.94 ",23/05/2019
+1750,Finance,Director,50,F," R$ 3,942.05 ",24/06/2014
+1751,Marketing,Director,51,M," R$ 7,264.92 ",07/02/2013
+1752,Finance,Manager,58,F," R$ 17,901.24 ",2011-03-04
+1753,Logistics,Technician,52,F," R$ 8,957.42 ",2018-04-29
+1754,HR,Assistant,18,F," R$ 19,636.27 ",2012-04-20
+1755,HR,Manager,38,M," R$ 11,153.73 ",28/07/2021
+1756,IT,Manager,65,F," R$ 14,774.40 ",2016-05-24
+1757,Logistics,Coordinator,23,M," R$ 18,269.70 ",2013-08-06
+1758,Legal,,45,F, ,2021-07-07
+1759,Finance,Coordinator,34,M," R$ 12,747.92 ",2019-10-24
+1760,Logistics,Assistant,22,M," R$ 3,584.37 ",24/12/2014
+1761,Legal,Manager,48,M," R$ 5,579.75 ",03/11/2017
+1762,Legal,Analyst,22,M," R$ 19,402.24 ",2019-04-22
+1763,Operations,Manager,55,M," R$ 12,092.38 ",2021-04-05
+1764,,Assistant,20,M," R$ 14,824.45 ",30/08/2018
+1765,,Coordinator,40, ," R$ 2,715.54 ",2018-05-30
+1766,Logistics,Assistant,54,F," R$ 18,600.86 ",23/02/2017
+1767,Logistics,Coordinator,54,M,,2017-07-09
+1768,Finance,Assistant,27,M," R$ 10,818.79 ",2013-02-01
+1769,IT,Specialist,27,F," R$ 15,399.03 ",2020-08-06
+1770,HR,,36,M," R$ 2,330.70 ",2013-02-10
+1771,Legal,Coordinator,34,M," R$ 14,317.60 ",2020-07-09
+1772,IT,Coordinator,38,M," R$ 8,396.81 ",13/02/2010
+1773,Finance,Manager,31,F," R$ 7,441.87 ",2010-06-05
+1774,Marketing,Technician,26,F," R$ 19,927.90 ",2013-05-09
+1775,Operations,Technician,63,M," R$ 19,614.58 ",2023-08-28
+1776,HR,,18,M," R$ 6,965.81 ",2012-06-29
+1777,Legal,Director,62,M," R$ 3,116.17 ",2015-05-01
+1778,Finance,Director,30,M," R$ 6,638.23 ",2011-01-27
+1779,Finance,Manager,21,M," R$ 8,969.07 ",2023-12-21
+1780,Logistics,Assistant,18,F," R$ 19,999.13 ",27/06/2012
+1781,IT,Analyst,57,M," R$ 19,826.51 ",2021-03-18
+1782,HR,Manager,49,," R$ 18,994.46 ",2010-05-15
+1783,Marketing,Coordinator,51,F," R$ 19,084.10 ",2022-11-24
+1784,Logistics,Analyst,45,F," R$ 6,060.49 ",2013-03-22
+1785,Marketing,Assistant,48,F," R$ 8,152.15 ",2010-01-13
+1786,Operations,Coordinator,25, ," R$ 9,071.24 ",2015-05-25
+1787,Legal,Specialist,56,F," R$ 4,470.69 ",2014-03-15
+1788,Operations,Director,43,F," R$ 15,138.01 ",2011-12-03
+1789,IT,Assistant,51,F," R$ 11,372.92 ",2018-02-02
+1790,HR,Specialist,20,M," R$ 14,203.91 ",2021-10-19
+1791,Marketing,Specialist,29,F," R$ 17,708.63 ",2021-05-21
+1792,HR,Coordinator,18,M," R$ 14,357.42 ",04/10/2018
+1793,Logistics,Assistant,61,M," R$ 9,512.00 ",2010-12-23
+1794,Logistics,Coordinator,22,M,,2018-05-17
+1795,IT,Assistant,47,M," R$ 9,676.37 ",2010-05-14
+1796,HR,Specialist,47,M, ,2011-07-08
+1797,HR,Specialist,34,F," R$ 12,896.64 ",2012-04-29
+1798,HR,Specialist,65,M, ,2017-06-16
+1799,Logistics,Technician,64,F," R$ 4,371.90 ",2017-11-26
+1800,Logistics,Director,40,F," R$ 13,744.51 ",05/12/2013
+1801,IT,Manager,32,M," R$ 12,458.55 ",03/06/2020
+1802,IT,Coordinator,54,F," R$ 14,312.88 ",2020-09-25
+1803,IT,Coordinator,38,F," R$ 5,641.58 ",2013-01-09
+1804,,Director,31,F," R$ 4,485.97 ",2020-04-07
+1805,Marketing,Technician,19,F," R$ 14,393.58 ",2014-07-10
+1806,Finance,Manager,28,M," R$ 18,175.58 ",23/06/2014
+1807,Legal,Assistant,56,F," R$ 18,372.13 ",29/01/2017
+1808,Legal,Coordinator,55,," R$ 9,741.16 ",2021-07-24
+1809,Legal,Manager,51,M," R$ 18,362.04 ",2022-03-07
+1810,HR,Assistant,55, ," R$ 15,860.90 ",2010-10-27
+1811,Operations,Coordinator,51,F," R$ 13,812.17 ",2014-04-15
+1812,Operations,Coordinator,35,F," R$ 12,167.20 ",27/01/2011
+1813,Finance,Technician,47,M," R$ 4,844.86 ",2017-06-12
+1814,Logistics,Technician,32,F," R$ 3,220.65 ",2018-04-03
+1815,HR,Technician,44,F," R$ 11,593.31 ",2018-12-21
+1816,HR,Assistant,51,M," R$ 14,949.93 ",2018-09-03
+1817,HR,Director,55,M," R$ 5,314.43 ",2014-03-11
+1818, ,Specialist,50,M," R$ 17,111.41 ",2021-02-27
+1819,Legal,Manager,41,M," R$ 4,619.41 ",2021-08-24
+1820,Marketing,Coordinator,32,M," R$ 2,530.70 ",2011-11-08
+1821,Logistics,Assistant,47,F," R$ 7,736.37 ",2011-10-09
+1822,IT,Coordinator,59,M," R$ 19,512.13 ",2014-01-18
+1823,HR,Specialist,34,F," R$ 19,301.53 ",2017-03-16
+1824,Logistics,Specialist,22,M," R$ 7,460.27 ",2017-05-10
+1825,Logistics,Assistant,46,F," R$ 15,420.98 ",2016-11-15
+1826,Logistics,Coordinator,21,M," R$ 16,790.57 ",2019-07-23
+1827,Finance,Analyst,27,F," R$ 13,463.25 ",2019-12-16
+1828,HR,Director,34,M," R$ 15,290.11 ",2010-12-13
+1829,HR,Manager,27,M," R$ 4,735.23 ",2017-11-28
+1830,Marketing,Director,34,M," R$ 5,382.80 ",2019-10-04
+1831,HR,Director,37,M," R$ 4,367.83 ",2011-04-15
+1832,IT,Manager,41,F," R$ 2,471.57 ",2019-02-10
+1833,Operations,Technician,22,M," R$ 19,747.20 ",03/08/2013
+1834, ,Specialist,51,M," R$ 13,105.04 ",15/03/2013
+1835,Logistics,Director,23,M," R$ 12,900.88 ",2019-10-30
+1836,Legal,Analyst,19,M, ,2011-07-05
+1837,Marketing,Technician,30,F," R$ 12,734.49 ",2018-03-20
+1838,Marketing,Assistant,60,M," R$ 6,156.42 ",2022-09-21
+1839,HR,Technician,60,F, ,2013-06-10
+1840,Marketing,Manager,65, ," R$ 3,430.56 ",2018-04-27
+1841,Legal,Assistant,28,F," R$ 16,036.87 ",2011-09-22
+1842,Marketing,Specialist,64,M," R$ 4,413.56 ",2021-11-16
+1843,IT,Coordinator,40,M," R$ 17,230.49 ",2017-01-19
+1844,Finance,Specialist,33,F," R$ 10,437.74 ",07/08/2015
+1845,IT,Technician,48,F," R$ 13,692.23 ",2010-08-01
+1846,IT,Analyst,28,F," R$ 5,311.58 ",2021-03-12
+1847,Finance,Specialist,33,M," R$ 8,974.29 ",2022-08-07
+1848,Finance,Specialist,25,M," R$ 10,529.24 ",2015-11-03
+1849,Marketing,Specialist,21,M," R$ 4,948.15 ",24/10/2014
+1850,IT,Specialist,57,F," R$ 6,072.92 ",2016-05-28
+1851,HR,Assistant,21,M," R$ 9,354.60 ",2021-01-06
+1852,Operations,Technician,42,M," R$ 19,438.67 ",16/01/2013
+1853,Operations,Assistant,20,F," R$ 18,657.83 ",2020-02-21
+1854,Operations,Manager,49,F," R$ 19,103.56 ",26/12/2019
+1855,IT,Technician,20,F," R$ 6,005.98 ",2017-03-03
+1856,Legal,Coordinator,44,F," R$ 14,084.10 ",2011-06-16
+1857,Finance,Manager,46,F," R$ 5,651.00 ",06/07/2016
+1858,Marketing,Coordinator,49,M," R$ 5,682.12 ",2013-07-14
+1859,Marketing,Technician,36,F," R$ 5,187.41 ",2013-11-27
+1860,Operations,Manager,38,F," R$ 19,184.58 ",2021-05-30
+1861,Marketing,Technician,22,F," R$ 9,907.13 ",2014-07-05
+1862,HR,Assistant,35,M," R$ 13,107.07 ",2015-04-24
+1863,HR,Specialist,45,," R$ 14,381.53 ",2010-08-04
+1864,Finance,Assistant,59,F," R$ 17,601.95 ",2022-11-02
+1865,Marketing,Analyst,39,M," R$ 17,976.56 ",2022-05-17
+1866,IT, ,38,M," R$ 9,696.00 ",2011-12-08
+1867,Marketing,Director,23,F," R$ 15,971.86 ",06/12/2018
+1868,IT,Assistant,18,F," R$ 12,942.74 ",2020-09-26
+1869,Legal,Director,22,F," R$ 16,837.91 ",09/03/2019
+1870,Logistics, ,58,M," R$ 14,963.62 ",2011-08-28
+1871,Operations,Director,29,F," R$ 9,094.71 ",2017-02-10
+1872,IT,Director,43,F," R$ 18,904.50 ",2020-02-04
+1873,Legal,Specialist,63,F," R$ 12,294.82 ",2021-08-09
+1874,Logistics,Technician,51,F," R$ 11,650.87 ",2022-05-14
+1875,Operations,Assistant,31,F," R$ 13,545.09 ",2014-01-30
+1876, ,Director,43,F," R$ 14,674.03 ",2012-11-23
+1877,HR,Analyst,62,F," R$ 2,693.22 ",30/03/2011
+1878,Marketing,Specialist,44,M," R$ 3,967.69 ",2021-08-15
+1879,Logistics,Coordinator,26,M," R$ 10,224.21 ",2013-09-10
+1880,Legal,Technician,43,," R$ 17,799.81 ",2015-01-22
+1881,Finance,Specialist,64,F," R$ 17,800.04 ",21/08/2021
+1882,Marketing,,39,M," R$ 6,422.99 ",2011-10-09
+1883,Operations,Director,64,M," R$ 11,681.64 ",2022-05-10
+1884,Logistics,Technician,47,F," R$ 19,708.95 ",2016-10-16
+1885,Marketing,Analyst,60,M," R$ 2,706.53 ",2012-02-05
+1886,Finance,Analyst,65,M," R$ 8,973.16 ",2013-10-13
+1887,Operations,Specialist,34,M," R$ 15,772.88 ",2023-01-09
+1888,Operations,Manager,43,M,,2023-07-29
+1889,Finance,Technician,53,F," R$ 5,417.31 ",2022-08-23
+1890,Marketing,Technician,18,M," R$ 9,911.97 ",2010-08-21
+1891,Finance,Coordinator,25,M," R$ 17,919.16 ",2022-12-08
+1892,IT,Manager,52,F," R$ 15,926.19 ",2014-09-23
+1893,HR,Technician,32,F," R$ 7,146.46 ",2019-05-06
+1894,Finance,Director,64,M," R$ 4,996.76 ",2010-09-06
+1895,Operations,Analyst,39,F," R$ 7,299.56 ",2022-03-28
+1896,,Director,31,F," R$ 18,542.59 ",2016-10-10
+1897,HR,Technician,43,M," R$ 14,419.15 ",2019-02-09
+1898,Logistics,Technician,45,F," R$ 18,266.16 ",2011-08-21
+1899,Logistics,Technician,40,M," R$ 10,344.42 ",2013-07-18
+1900,Finance,,31,F," R$ 13,629.83 ",2020-11-10
+1901,HR,Specialist,41,," R$ 3,627.93 ",2017-08-18
+1902,Logistics,Coordinator,19,F," R$ 11,011.84 ",04/01/2017
+1903,Marketing,Specialist,62,F," R$ 5,235.89 ",2017-02-28
+1904,Operations,Assistant,43,M," R$ 12,538.06 ",30/09/2017
+1905,Finance,Analyst,31,M," R$ 18,097.90 ",2012-12-07
+1906,Logistics,Analyst,24,M," R$ 11,835.33 ",2021-07-20
+1907,Operations,Analyst,20,M," R$ 9,075.20 ",2017-02-27
+1908,IT,Coordinator,64,F," R$ 7,822.30 ",2012-09-30
+1909,IT,Manager,40,M," R$ 2,448.42 ",2015-07-24
+1910,HR,Director,63,M," R$ 10,166.25 ",2011-02-19
+1911,IT,Technician,60,M," R$ 18,139.12 ",13/08/2018
+1912,Legal,Director,64,F," R$ 18,124.31 ",2019-05-19
+1913,IT,Director,62,F," R$ 17,885.87 ",01/08/2013
+1914,Finance,Director,35, ," R$ 3,623.23 ",2022-12-16
+1915,Operations,Technician,55,M," R$ 7,833.35 ",2014-04-05
+1916,Logistics,Director,52,F," R$ 13,674.38 ",05/03/2021
+1917,Logistics,Manager,32,M," R$ 14,806.46 ",2020-06-21
+1918,Legal,Assistant,42,M," R$ 4,951.89 ",2016-12-02
+1919,HR,Coordinator,54,F, ,08/01/2012
+1920,Logistics,Assistant,45,F," R$ 3,641.44 ",2021-05-03
+1921,IT,Assistant,27,M," R$ 14,712.08 ",2015-05-27
+1922,Operations,Specialist,56,M," R$ 13,413.30 ",2017-11-30
+1923,Logistics,Technician,34,M," R$ 3,535.52 ",2016-04-23
+1924,Logistics, ,56,F," R$ 14,731.02 ",2020-07-22
+1925,Marketing,Technician,39,F," R$ 15,083.73 ",08/03/2010
+1926,Finance,Director,43,F," R$ 19,553.45 ",2019-09-01
+1927,Logistics,Manager,61,F," R$ 13,017.31 ",2015-12-07
+1928,Logistics,Coordinator,42,M," R$ 4,878.19 ",2019-01-17
+1929,IT,Analyst,34,M," R$ 11,906.23 ",2018-12-26
+1930,IT,Assistant,30,F," R$ 2,790.31 ",2022-08-08
+1931,IT,Analyst,37,M," R$ 5,075.93 ",2022-05-30
+1932,Operations,Coordinator,42,F," R$ 8,033.48 ",2018-08-31
+1933,Finance,Assistant,21,F," R$ 17,683.50 ",2022-05-02
+1934,Logistics,Analyst,27,M," R$ 17,528.10 ",2023-12-24
+1935,Legal,Analyst,20,F," R$ 4,918.23 ",2012-08-31
+1936,Legal,Specialist,58,F," R$ 4,602.93 ",2012-03-03
+1937,Finance,Technician,62,F," R$ 15,844.82 ",2017-08-09
+1938,Operations,Manager,35,M," R$ 2,923.59 ",2018-03-15
+1939,HR,Coordinator,64,F," R$ 7,545.12 ",2014-06-19
+1940,Legal,Coordinator,53,F," R$ 15,142.91 ",2019-01-02
+1941,Legal,,64,M," R$ 19,297.39 ",2011-01-07
+1942,,Assistant,39,F," R$ 7,198.05 ",21/06/2017
+1943,Operations,Specialist,51,F," R$ 5,252.53 ",2021-08-25
+1944,Operations,Manager,64,F," R$ 18,173.75 ",07/08/2023
+1945,IT,Director,25,F," R$ 19,287.81 ",2013-02-19
+1946,Operations,Assistant,57,F," R$ 2,063.59 ",2023-10-02
+1947,IT,Coordinator,61,M," R$ 15,777.12 ",25/10/2018
+1948,Logistics,Assistant,36,M," R$ 2,219.74 ",2016-09-17
+1949,Logistics,Analyst,59,F," R$ 10,957.30 ",18/05/2021
+1950,Marketing,Assistant,58,M," R$ 10,975.56 ",2021-12-09
+1951,Operations,Technician,54,M," R$ 16,534.18 ",2022-08-17
+1952,Finance,Technician,23,M," R$ 12,943.71 ",2010-05-17
+1953,IT,Assistant,43,F," R$ 10,882.40 ",16/06/2012
+1954,Marketing,Coordinator,51, ," R$ 5,903.73 ",2023-02-03
+1955,HR,Analyst,62,M," R$ 13,870.47 ",2010-08-07
+1956,HR,Coordinator,23,M," R$ 10,167.29 ",16/12/2015
+1957,HR,Analyst,54,M," R$ 9,953.76 ",2022-12-22
+1958,IT,Specialist,50,F," R$ 12,821.90 ",2011-02-25
+1959,Operations,Technician,39,M," R$ 2,118.31 ",2013-10-28
+1960,IT,Analyst,38,M," R$ 17,879.02 ",2023-11-25
+1961,HR,Analyst,23,F," R$ 7,006.03 ",2018-07-12
+1962,Operations,Specialist,23,F," R$ 13,315.44 ",2015-06-08
+1963,Marketing,Coordinator,65,M," R$ 16,762.19 ",2012-06-19
+1964,HR, ,21,F," R$ 5,737.48 ",2019-11-22
+1965,Finance,Analyst,47,F," R$ 5,327.12 ",2013-05-25
+1966,Operations,Technician,28,F," R$ 2,991.15 ",2014-07-29
+1967,IT,Specialist,47,M," R$ 8,282.36 ",19/09/2023
+1968,Logistics,Manager,48,M," R$ 4,616.74 ",2011-05-26
+1969,IT,Technician,41,F," R$ 2,583.78 ",2021-08-20
+1970,Finance,Manager,26,M," R$ 12,405.67 ",16/04/2017
+1971,Legal,Director,20,M," R$ 12,859.14 ",2020-09-23
+1972,IT,Manager,48,M," R$ 7,960.00 ",14/01/2017
+1973,Logistics,Director,57,M," R$ 3,578.65 ",23/04/2020
+1974,Logistics,Manager,54,M," R$ 3,959.98 ",2017-09-05
+1975,Logistics,Coordinator,53,M," R$ 19,887.23 ",2015-12-06
+1976,Finance,Director,41,M," R$ 4,904.03 ",25/04/2014
+1977,HR,Assistant,48,M," R$ 7,118.85 ",2016-04-04
+1978, ,Assistant,23,M," R$ 13,896.64 ",17/01/2015
+1979,IT,Manager,19,M," R$ 14,597.24 ",2016-09-04
+1980,Operations, ,37,F," R$ 12,301.09 ",2014-08-26
+1981,Legal,Assistant,45, ," R$ 12,119.19 ",2020-12-19
+1982,IT,Technician,28,F," R$ 19,393.28 ",2017-10-28
+1983,Logistics,Manager,21,M," R$ 15,488.03 ",2016-02-19
+1984,HR,Manager,32,F," R$ 8,483.40 ",2022-11-11
+1985,Logistics,Technician,23,M," R$ 2,645.12 ",08/07/2018
+1986,Operations, ,47,M," R$ 15,833.22 ",07/11/2018
+1987,Logistics,Assistant,55,F," R$ 7,810.79 ",2013-04-14
+1988,Finance,Assistant,19,F," R$ 18,155.54 ",14/06/2016
+1989,HR,Analyst,32,F," R$ 16,764.77 ",2011-10-10
+1990, ,Technician,28,M," R$ 15,651.96 ",2019-12-03
+1991,Legal,Director,25,M," R$ 17,179.57 ",2020-09-29
+1992,Legal,Manager,43,F," R$ 3,168.67 ",2022-01-30
+1993,Marketing,Assistant,62,M," R$ 10,474.70 ",2022-08-10
+1994, ,Director,61,M," R$ 4,196.42 ",2013-01-29
+1995, ,Assistant,22,F," R$ 17,469.34 ",2023-03-01
+1996,Finance,Assistant,23,M," R$ 7,925.75 ",2011-02-20
+1997,Finance,Analyst,43,F," R$ 9,447.64 ",2021-11-29
+1998,Finance,Technician,21,F," R$ 1,000.22 ",2015-03-23
+1999,IT,Manager,36,M," R$ 35,762.92 ",2019-04-09
+2000,IT,Manager,37,M, ,2020-08-05
