@@ -268,9 +268,6 @@ cor_chart_rh <- cor(correl_dados_rh_num) |>
 
 correl_dados_rh_num |> as_tibble()
 
-# Exibindo a matriz de correlação
-cor_chart_rh
-
 
 # ANÁLISE EXTRA -> ANALISANDO 'POSITION' COM 'GENDER' #
 # Usando o coeficiente de Associação para variáveis categóricas -> Cramer's V
@@ -283,8 +280,8 @@ library(rcompanion)
 # Relacionando 'Position' e 'Gender'
 
 rcompanion::cramerV(
-  df_dados_rh_cat$Position,
-  df_dados_rh_cat$Gender
+  df_dados_rh_cat$Education,
+  df_dados_rh_cat$Position
 )
 
 # Calcula o coeficiente Cramer V, uma espécie de coeficiente de correlação entre variáveis categóricas. 
@@ -310,8 +307,6 @@ cramer_mat <-
 
 rh_cramer_matrix <- cramer_mat(df_dados_rh_cat)
 rh_cramer_matrix
-
-
 
 
 

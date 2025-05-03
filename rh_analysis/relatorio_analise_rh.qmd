@@ -1,0 +1,338 @@
+---
+title: "Relatório Análise RH"
+author: "Jefferson Nunes"
+format: 
+  html:
+    self-contained: true
+editor: visual
+---
+
+# Solicitação de Análise
+
+Olá Jefferson, tudo bem?
+
+Precisamos de uma análise completa da nossa base de colaboradores.
+
+Nossa intenção é entender melhor o perfil dos funcionários por departamento, cargo e também fazer um levantamento geral sobre salários e idade.
+
+Seguem os pontos que gostaríamos que fossem atendidos:
+
+• Apontar possíveis problemas na base de dados que possam impactar as análises (ex.: informações faltando, formatos inconsistentes, etc.).
+
+-   Obs Jeff: Muitos dados faltando, nas colunas (Departamento, Cargo, Gênero e Data de admissão). O pessoal do RH informou que todos os dados faltantes fossem excluídos da análise por ora, iam fazer uma solicitação para o pessoal do banco corrigir essas informações, e que me passariam uma base corrigida assim que possível, com todos os dados.
+
+    • Limpar os dados e garantir que estejam padronizados para análise.
+
+    • Calcular estatísticas descritivas básicas: média, mediana, desvio padrão e variância para idade e salários.
+
+    • Analisar a dispersão dos salários (IQR, amplitude) e identificar possíveis valores fora do padrão (outliers).
+
+    • Levantar a distribuição de colaboradores por departamento, cargo e gênero (em porcentagem).
+
+    • Verificar se existe alguma correlação relevante entre as variáveis.
+
+    • Apresentar um gráfico de boxplot dos salários para visualização dos outliers por departamento.
+
+    • Identificar, caso existam, departamentos ou cargos que apresentem maior disparidade salarial.
+
+Se puder, gostaríamos também de uma breve recomendação baseada nos dados encontrados (ex.: pontos de atenção, tendências, anomalias).
+
+Precisamos desse material até o final da semana para preparar uma apresentação para a diretoria.
+
+Obrigado!
+
+Atenciosamente,
+
+Equipe de RH.
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+library(dplyr) # Manipulação de dados
+library(ggplot2) # Visualização de dados
+library(janitor) # Limpeza e resumo dos dados
+library(lubridate) # Manipulação de datas
+library(naniar) # Visualização de dados faltantes
+library(stringr) # Manipulação de textos
+library(tidyr) # Para transformar os dados
+library(echarts4r)
+library(rcompanion)
+
+```
+
+## Dados
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+df_base_employees <- readr::read_delim(
+  file = "D:/Projetos Data Science/_sandbox/rh_analysis/base_funcionarios.csv",
+  delim = ",") |> 
+  dplyr::mutate(
+    Salary = Salary |>
+      gsub('"', "", x = _) |>            # Remove aspas
+      trimws() |>                        # Tira espaços extras
+      gsub("R\\$\\s*", "", x = _) |>     # Remove R$ e espaço
+      gsub(",", "", x = _) |>            # Remove vírgula do milhar
+      as.double()                        
+    )
+
+df_base_employees
+```
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+df_base_employees <- df_base_employees |>
+  dplyr::mutate(
+    HireDate = HireDate |> as.Date()
+  )
+```
+
+## Análise de Qualidade de dados categóricos 'DEPARTMENT' e 'POSITION'
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+df_employees_tabyl_department <- df_base_employees |>
+  janitor::tabyl(Department)
+
+df_employees_tabyl_position <- df_base_employees |>
+  janitor::tabyl(Position)
+
+df_employees_tabyl_department
+
+df_employees_tabyl_position
+```
+## Análise de Qualidade de dados numéricos
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+df_stats <- df_base_employees |>
+  dplyr::select(-c("EmployeeID")) |> # A coluna EmployeeID apesar de numérica é uma coluna categórica
+  dplyr::summarise(
+    dplyr::across(
+      dplyr::where(is.numeric),
+      list(
+        mean = ~mean(., na.rm = TRUE),
+        median = ~median(., na.rm = TRUE),
+        sd = ~sd(., na.rm = TRUE),
+        min = ~min(., na.rm = TRUE),
+        max = ~max(., na.rm = TRUE)
+        #na_percentage = ~sum(is.na(.)) / n() * 100
+      ),
+      .names = "{.col}-{fn}" # usando hífen como separador
+      )
+    ) |>
+  tidyr::pivot_longer(
+    cols = everything(),
+    names_to = c("Variable", ".Value"),
+    names_sep = "-" # Alinhando o separador como usado acima
+  )
+
+df_stats
+```
+
+Obs: Conversando com a área de negócio, foi sugerido por eles que os dados faltantes fossem removidos
+da análise.
+Mas que fosse deixado uma versão de 'Backup'.
+
+1. Verificando quais colunas estão com NA's e a quantidade de dados faltantes.
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+colSums(is.na(df_base_employees))
+```
+```{r}
+#| echo: false
+df_base_employees_clean <- df_base_employees |>
+  dplyr::filter(if_all(everything(), ~ !is.na(.)))
+```
+
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+df_base_employees_clean <- df_base_employees_clean |>
+  dplyr::mutate(across(where(is.character), ~ na_if(trimws(.), ""))) |>
+  dplyr::filter(if_all(everything(), ~ !is.na(.)))
+```
+
+2. Excluindo dados faltantes.
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+sapply(df_base_employees_clean, function(x) sum(x == "", na.rm = TRUE))
+```
+
+Média e Mediana de Salário e Idade
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+mean_salary <- mean(df_base_employees_clean$Salary)
+mean_age <- mean(df_base_employees_clean$Age)
+```
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+df_stats_central <- df_base_employees_clean |>
+  dplyr::group_by(Department, Position) |>
+  dplyr::summarise(
+    mean_age = mean(Age, na.rm = TRUE),
+    median_age = median(Age, na.rm = TRUE),
+    mean_salary = mean(Salary, na.rm = TRUE),
+    median_salary = median(Salary, na.rm = TRUE),
+    .groups = "drop"
+  ) 
+df_stats_central
+```
+
+## Analisando salários por departamento
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+median_income_df <- df_base_employees_clean %>%
+  group_by(Department) %>%
+  summarize(median_income = median(Salary, na.rm = TRUE))
+
+#Arrange 'Department' by median income and create a factor
+sorted_data <- df_base_employees_clean %>%
+  left_join(median_income_df, by = "Department") %>%
+  mutate(Department = factor(Department, levels = rev(median_income_df$Department[order(median_income_df$median_income)]))) %>%
+  arrange(Department)
+
+sorted_data %>%
+  group_by(Department) %>%
+  e_chart() %>%
+  e_boxplot(Salary) %>%
+  e_color(color = "#4292b5") %>%
+  e_tooltip() %>%
+  e_title(text = "Renda mensal por Department", subtext = "Em milhares de USD.")
+```
+
+Importante: Outliers identificados nos departamentos: Finance, Legal, TI, Marketing, RH e Logistics.
+
+## Correlação entre Idade e Salário
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+df_dados_rh_num <- df_base_employees_clean |>
+  dplyr::select_if(is.numeric) |>
+  dplyr::select(
+    -c(EmployeeID)
+  )
+correl_dados_rh_num <- df_dados_rh_num |> cor(method = "spearman")
+
+cor_chart_rh <- cor(correl_dados_rh_num) |>
+  e_charts() |>
+  e_correlations(
+    order = "hclust",
+    visual_map = FALSE
+  ) |>
+  e_visual_map(
+    min = -1,
+    max = 1
+  ) |>
+  e_tooltip()
+
+correl_dados_rh_num |> as_tibble()
+
+```
+
+Nota: Não há uma correlação forte entre Idade e Salário.
+
+## Correlação entre variáveis categóricas
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+df_dados_rh_cat <- df_base_employees_clean |>
+  dplyr::select_if(is.character)
+```
+
+Cargo x Gênero
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+rcompanion::cramerV(
+  df_dados_rh_cat$Position,
+  df_dados_rh_cat$Gender
+)
+```
+Nota: Não há correlação entre Cargo e Gênero.
+
+Formação x Cargo
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+rcompanion::cramerV(
+  df_dados_rh_cat$Education,
+  df_dados_rh_cat$Position
+)
+```
+Nota: Há correlação entre Formação e Cargo.
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+cramer_mat <-
+  function(df){
+    lapply(names(df), function(x){
+      df_aux <- lapply(
+        names(df), 
+        function(y){
+          rcompanion::cramerV(df[[paste0(x)]], df[[paste0(y)]])[[1]]
+        }
+      ) 
+      names(df_aux) <- names(df)
+      df_aux %>% dplyr::bind_rows()
+    }) %>%
+      dplyr::bind_rows() %>% 
+      dplyr::mutate( var = names(df)) %>% 
+      dplyr::select(var, everything())
+  }
+
+rh_cramer_matrix <- cramer_mat(df_dados_rh_cat)
+rh_cramer_matrix
+```
+
+## Conclusão
+
+A primeira análise da base de colaboradores revela uma estrutura salarial coerente com diferentes níveis de responsabilidade entre os departamentos. Áreas como Financeiro e Jurídico concentram as faixas salariais mais elevadas, enquanto setores operacionais, como Logística e Recursos Humanos, apresentam valores mais modestos — o que é esperado dada a natureza das funções.
+
+A correlação entre idade e salário, embora positiva, foi moderada. Isso indica que há uma tendência de que colaboradores mais velhos recebam salários mais altos, mas essa relação não é forte o suficiente para ser considerada determinante. Outros fatores, como cargo, experiência anterior, tempo de empresa e formação acadêmica, provavelmente influenciam de maneira mais direta os níveis de remuneração.
+
+Durante a análise, foram identificados outliers salariais em alguns departamentos. Embora poucos, esses valores destoam significativamente das médias e devem ser revisados manualmente para garantir que não se tratem de erros de digitação ou cadastro.
+
+Além disso, a relação entre cargo e escolaridade mostrou-se consistente: cargos mais altos estão atrelados a níveis educacionais mais elevados, especialmente nas funções de gerência e diretoria. Isso indica uma estrutura hierárquica alinhada às exigências de qualificação profissional.
+
+### Recomendações ao RH
+
+- Validar registros de outliers salariais, garantindo que valores muito acima da média sejam legítimos e justificados.
+
+- Investigar outros fatores que impactam a remuneração, como tempo de empresa, desempenho ou localização, para entender melhor os padrões de progressão salarial.
+
+- Padronizar o registro de informações, especialmente salário, gênero e escolaridade, para facilitar futuras análises.
+
+- Monitorar regularmente os indicadores de distribuição salarial por gênero, garantindo que não haja distorções ou viéses não intencionais.
+
+- Estabelecer alertas automáticos para identificar novos outliers ou registros incompletos, o que pode agilizar a manutenção da qualidade dos dados.
